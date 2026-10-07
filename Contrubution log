@@ -1,0 +1,22 @@
+# Contribution Log
+
+**SLE-3: Architectural Design (Full C4 Model)** | Course: 02AML204
+
+**Name:** Pranav Gajanan Revankar | **PRN:** 25UAM087 | **Division:** B | **Date:** 04 October 2026
+
+---
+
+## My Contribution
+
+- Chose the BFS/DFS 8-puzzle as the system to model.
+- Reviewed every diagram and description against my own SLE-2 code (`bfs_dfs_8puzzle.py`).
+- Checked that the container and function names match what I actually implemented.
+
+---
+
+## AI Contribution
+
+- **Tools used:** Gemini and ChatGPT (SLE-1/SLE-2 code), and Claude.
+- Suggested the C4 structure for this system.
+- Drafted the four C4 levels and produced the diagrams.
+- Wrote the draft explanations from my SLE-1 and SLE-2 reports.
