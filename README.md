@@ -14,7 +14,7 @@
 
 ---
 
-## ðŸ“Œ 1. System Title & Short Description
+## 1. System Title & Short Description
 
 **System:** 8-Puzzle Solver using BFS and DFS â€” the same 8-puzzle search system that was profiled in **SLE-2**.
 
@@ -33,7 +33,7 @@ For every run it counts the **nodes expanded** and measures the **average execut
 
 ---
 
-## ðŸŒ 2. Context Diagram (Level 1)
+## 2. Context Diagram (Level 1)
 
 > *Fig. 1 â€” C4 Level 1: the 8-Puzzle Solver System and the world around it.*
 
@@ -49,7 +49,7 @@ flowchart LR
 
 ---
 
-## ðŸ“¦ 3. Container Diagram (Level 2)
+## 3. Container Diagram (Level 2)
 
 > *Fig. 2 â€” C4 Level 2: the six main building blocks of the system.*
 
@@ -73,7 +73,7 @@ flowchart TD
 
 ---
 
-## ðŸ§© 4. Component Diagram (Level 3)
+## 4. Component Diagram (Level 3)
 
 > *Fig. 3 â€” C4 Level 3: components inside the **Search Engine** container only.*
 
@@ -99,7 +99,7 @@ flowchart LR
 
 ---
 
-## ðŸ’» 5. Code Level Overview (Level 4)
+## 5. Code Level Overview (Level 4)
 
 | Name | Kind | Responsibility (container) |
 | --- | --- | --- |
@@ -111,7 +111,7 @@ flowchart LR
 
 ---
 
-## ðŸ§  6. Design Decisions
+## 6. Design Decisions
 
 - **Shared `get_neighbors()`** â€“ written once and used by both `solve_bfs()` and `solve_dfs()`, so the two algorithms differ only in the Frontier's data structure (`deque` vs `list`). This keeps the SLE-2 comparison fair.
 - **Visited set instead of full paths** â€“ the puzzle's move graph has cycles (a move can be undone) and would loop forever without it.
@@ -120,7 +120,7 @@ flowchart LR
 
 ---
 
-## ðŸ¤– 7. AI Contribution Note
+## 7. AI Contribution Note
 
 - **AI tools used:** Gemini and ChatGPT (SLE-1/SLE-2 code), and Claude.
 - **What AI helped with:** suggested the C4 structure for this 8-puzzle system, drafted the four levels, produced the diagrams, and wrote the draft explanations from my SLE-1 and SLE-2 reports.
@@ -128,7 +128,7 @@ flowchart LR
 
 ---
 
-## âœ… 8. Conclusion
+## 8. Conclusion
 
 C4 showed the same system at four levels of detail:
 
@@ -141,12 +141,12 @@ Drawing it made it clear that BFS and DFS share almost everything â€” the s
 
 ---
 
-## ðŸ› ï¸ Tech Stack
+## Tech Stack
 
 - **Language:** Python 3
 - **Libraries:** Standard library only (`time`, `collections`)
 
-## ðŸ‘¤ Author
+## Author
 
 **Pranav Gajanan Revankar** â€” PRN: 25UAM087 | Division B
 GitHub: [@pranavrevankar33-ctrl](https://github.com/pranavrevankar33-ctrl)
